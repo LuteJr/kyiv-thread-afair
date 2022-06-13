@@ -7,7 +7,7 @@ export default function Home() {
         <title>Thread Afair</title>
       </Head>
 
-      <header className="header">Hello mofo</header>
+      <header className="header">Hello mofo test commit</header>
 
       <main className="content"></main>
 
