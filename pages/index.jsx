@@ -7,7 +7,7 @@ export default function Home() {
         <title>Thread Afair</title>
       </Head>
 
-      <header className="header">
+      <header className="header text-warning">
         Hello
         <img src="/images/logo.jpg" alt="" />
         <i className="fa-solid fa-phone"></i>
