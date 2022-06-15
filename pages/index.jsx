@@ -7,7 +7,11 @@ export default function Home() {
         <title>Thread Afair</title>
       </Head>
 
-      <header className="header">Hello mofo test commit 2x</header>
+      <header className="header">
+        Hello
+        <img src="/images/logo.jpg" alt="" />
+        <i className="fa-solid fa-phone"></i>
+      </header>
 
       <main className="content"></main>
 
