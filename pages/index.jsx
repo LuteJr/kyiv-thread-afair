@@ -14,7 +14,9 @@ export default function Home() {
       </header>
 
       <main className="content"></main>
-
+      <div className="badge">20off</div>
+      <div className="badge badge-secondary">new entry</div>
+      <div className="badge badge-oversized">%</div>
       <footer className="footer"></footer>
     </div>
   );
