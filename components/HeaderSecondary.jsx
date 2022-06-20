@@ -2,7 +2,7 @@ export default function HeaderSecondary() {
   return (
     <section className="header-secondary">
       <div className="header-logo">
-        <a href="/" title="Thread Affair">
+        <a href="www.pixellab.ro" title="Thread Affair">
           <img src="/images/logo.jpg" alt="Thread Affair - Logo"></img>
         </a>
       </div>
@@ -26,13 +26,13 @@ export default function HeaderSecondary() {
       <div className="header-search d-lg-none">
         <ul>
           <li>
-            <a href="/" title="Menu">
+            <a href="www.pixellab.ro" title="Menu">
               <i className="fa-solid fa-bars"></i>
             </a>
           </li>
 
           <li>
-            <a href="/" title="Search">
+            <a href="www.pixellab.ro" title="Search">
               <i className="fa-solid fa-search"></i>
             </a>
           </li>
@@ -42,13 +42,13 @@ export default function HeaderSecondary() {
       <div className="header-controls">
         <ul>
           <li>
-            <a href="/" title="Cart">
+            <a href="www.pixellab.ro" title="Cart">
               <i className="fa-solid fa-cart-shopping"></i>
             </a>
           </li>
 
           <li>
-            <a href="/" title="My Account">
+            <a href="www.pixellab.ro" title="My Account">
               <img src="/images/user-avatar.png" alt="My Account" />
               <i className="fa-solid fa-angle-down"></i>
             </a>
