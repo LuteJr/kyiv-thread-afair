@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
@@ -7,16 +8,25 @@ export default function Home() {
         <title>Thread Afair</title>
       </Head>
 
-      <header className="header text-warning">
-        Hello
-        <img src="/images/logo.jpg" alt="" />
-        <i className="fa-solid fa-phone"></i>
-      </header>
+      <Header></Header>
 
       <main className="content"></main>
       <div className="badge">20off</div>
       <div className="badge badge-secondary">new entry</div>
       <div className="badge badge-oversized">%</div>
+
+      <div>
+        <a href="/" className="button">
+          Test button
+        </a>
+      </div>
+
+      <div>
+        <a href="/" className="button button-large">
+          Test button
+        </a>
+      </div>
+
       <footer className="footer"></footer>
     </div>
   );
