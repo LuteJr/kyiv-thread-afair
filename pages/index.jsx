@@ -1,8 +1,10 @@
 import Head from 'next/head';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import ContentBanner from '../components/homepage/ContentBanner';
+import HomeNewsletter from '../components/homepage/HomeNewsletter';
 import HomePayment from '../components/homepage/HomePayment';
-import HomeSocial from '../styles/homepage/HomeSocial';
+import HomeSocial from '../components/homepage/HomeSocial';
 
 export default function Home() {
   return (
@@ -13,8 +15,13 @@ export default function Home() {
 
       <Header></Header>
 
-      <main className="content">
+      <main className="content mb-5">
+        <ContentBanner></ContentBanner>
+
+        <HomeNewsletter></HomeNewsletter>
+
         <HomeSocial></HomeSocial>
+
         <HomePayment></HomePayment>
       </main>
       <Footer></Footer>

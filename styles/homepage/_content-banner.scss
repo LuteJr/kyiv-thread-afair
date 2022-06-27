@@ -1,0 +1,60 @@
+.content-banner {
+  height: 716px;
+  background: $gray-secondary url('/images/banners/banner-05.jpg') no-repeat
+    center center / cover;
+
+  color: $white;
+  font-weight: 300;
+
+  &-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    gap: 36px;
+    position: relative;
+
+    @include media-breakpoint-up('lg') {
+      align-items: flex-end;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      font-weight: 500;
+      margin: 0;
+      line-height: 53px;
+
+      @include media-breakpoint-up('lg') {
+        font-size: 75px;
+        line-height: 80px;
+      }
+    }
+
+    h2 {
+      font-size: 27px;
+      margin: 0;
+      font-weight: inherit;
+
+      @include media-breakpoint-up('lg') {
+        font-size: 42px;
+      }
+    }
+  }
+
+  &-copy {
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    bottom: 70px;
+    width: 56%;
+
+    @include media-breakpoint-up('lg') {
+      font-size: 14px;
+      text-align: right;
+      width: 100%;
+      bottom: 24px;
+    }
+  }
+}
