@@ -154,19 +154,19 @@ export default function Footer() {
             <ul>
               <li>
                 <a href="https://x.ro" title="Support">
-                  Support
+                  <i className="fa-solid fa-headset"></i> Support
                 </a>
               </li>
 
               <li>
                 <a href="https://x.ro" title="Chat">
-                  Chat
+                  <i className="fa-regular fa-comment-dots"></i> Chat
                 </a>
               </li>
 
               <li>
                 <a href="https://x.ro" title="Email">
-                  Email
+                  <i className="fa-regular fa-envelope"></i> Email
                 </a>
               </li>
             </ul>
@@ -174,7 +174,7 @@ export default function Footer() {
         </div>
       </section>
 
-      <section className="footer-secondary text-center mt-3">
+      <section className="footer-secondary text-center mt-4">
         <p>©2019 THREAD AFFAIR. All Rights Reserved.</p>
         <p>
           Designed by

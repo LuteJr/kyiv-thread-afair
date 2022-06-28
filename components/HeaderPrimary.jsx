@@ -27,9 +27,19 @@ export default function HeaderPrimary() {
             </a>
           </li>
         </ul>
+        <section className="nav-primary-end px-2">
+          <ul>
+            <li>
+              <section className="anim">
+                <i className="fa-solid fa-sliders"></i>
+              </section>
+              <span className="inside-text">Customise your suit</span>
+            </li>
+          </ul>
+        </section>
       </nav>
 
-      <nav className="nav-secondary">
+      <nav className="nav-secondary mt-3 mb-4">
         <ul>
           <li>
             <a href="https://x.ro" title="Glamour suits">

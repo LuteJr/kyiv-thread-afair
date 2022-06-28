@@ -43,6 +43,13 @@
     }
   }
 
+  &-header {
+    .button {
+      text-align: center;
+      align-items: center;
+    }
+  }
+
   &-copy {
     position: absolute;
     text-align: center;
@@ -55,6 +62,21 @@
       text-align: right;
       width: 100%;
       bottom: 24px;
+    }
+  }
+
+  .button {
+    @include media-breakpoint-up('lg') {
+      background-color: transparent;
+      color: $brand-primary;
+      border: 2px solid $brand-primary;
+      font-weight: 500;
+
+      &:hover {
+        //.button:hover
+        color: $white;
+        background-color: $brand-primary;
+      }
     }
   }
 }
