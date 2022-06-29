@@ -30,10 +30,14 @@ export default function HeaderPrimary() {
         <section className="nav-primary-end px-2">
           <ul>
             <li>
-              <section className="anim">
-                <i className="fa-solid fa-sliders"></i>
+              <section className="nav-primary-end">
+                <span class="animated-button">
+                  <div className="trans">
+                    <i class="fa-solid fa-sliders"></i>
+                  </div>
+                  <span class="label">Customize your suit</span>
+                </span>
               </section>
-              <span className="inside-text">Customise your suit</span>
             </li>
           </ul>
         </section>
