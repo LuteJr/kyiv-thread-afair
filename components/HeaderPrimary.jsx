@@ -31,11 +31,11 @@ export default function HeaderPrimary() {
           <ul>
             <li>
               <section className="nav-primary-end">
-                <span class="animated-button">
+                <span className="animated-button">
                   <div className="trans">
-                    <i class="fa-solid fa-sliders"></i>
+                    <i className="fa-solid fa-sliders"></i>
                   </div>
-                  <span class="label">Customize your suit</span>
+                  <span className="label">Customize your suit</span>
                 </span>
               </section>
             </li>
